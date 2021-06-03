@@ -1,0 +1,36 @@
+{ "name": "switchable-cleanup-task-timer-210601-pmb",
+  "version": "0.0.1",
+  "description": "A setTimeout-based setInterval-replacement that I can .disable() and .enable() at any time, without causing extra delay.",
+  "keywords": [
+    "cleanup",
+    "setTimeout",
+    "setInterval",
+    "timer"
+  ],
+
+  "author": "M.K. (https://github.com/mk-pmb)",
+  "homepage": "https://github.com/mk-pmb/switchable-cleanup-task-timer-210601-pmb-js/#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mk-pmb/switchable-cleanup-task-timer-210601-pmb-js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mk-pmb/switchable-cleanup-task-timer-210601-pmb-js/issues"
+  },
+  "contributors": [],
+
+  "private": true, "license": "ISC",
+
+  "type": "module",
+  "exports": "tmr.mjs",
+  "scripts": { "test": "nodejs test/all.mjs" },
+  "directories": { "test": "test" },
+  "eslintConfig": { "extends": "nodejs-pmb" },
+
+  "dependencies": {},
+  "devDependencies": {
+  },
+
+
+  "npm vs. BOM = Unexpected token": "-*- coding: UTF-8 -*-"
+}
