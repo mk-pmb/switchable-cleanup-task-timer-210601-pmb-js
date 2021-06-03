@@ -29,6 +29,7 @@
 
   "dependencies": {},
   "devDependencies": {
+    "eslint-config-nodejs-pmb": "^0.2.0"
   },
 
 
